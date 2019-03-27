@@ -10,5 +10,5 @@ import com.cursomvc.domain.ItemPedido;
 @Repository
 public interface ItemPedidoRepository extends JpaRepository<ItemPedido, Integer>{
 	
-	Optional<ItemPedido> findById(Integer id);
+	Optional<ItemPedido> findById(ItemPedido id);
 }
